@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="style.css">-->
+        <link rel="stylesheet" href="style.css">
+<script defer src="scripts.js"></script>
+    <title>Document</title>
+</head>
+<body class="container">
+    
+    <div class="row">
+        <button class="col-sm align-self-center" id="left-button">Button</button> 
+        <p class="col-sm d-flex justify-content-center" id="button-text">Im right</p> 
+        <button class="col-sm align-self-center" id="right-button">Button</button> 
+    </div>
+    <div>
+        <h1 id="dont-hover" >dont hover over me</h1>
+    </div>
+        <form class="row align-items-left">
+            <p>Username: </p>
+            <input class="non-submit" type="text" id="username" style="margin-bottom: 3%;"> 
+            <p>Email: </p>
+            <input class="non-submit" type="email" id = "email" style="margin-bottom: 3%;">
+            <p>Password: </p>
+            <input style="margin-bottom: 3%; margin-right: 5%;" class="non-submit" type="password" id="password" value="">
+            <input style="width:10%; height: 90%;" type="submit" value="Submit" onclick="doThis()">
+        </form>
+    <div class="footer">
+    </div>
+</body>
+<!-- Add external javascript file -->
+<script defer src="scripts.js"></script>
+</html>
